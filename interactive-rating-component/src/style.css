@@ -1,0 +1,158 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Overpass' , sans-serif;
+}
+
+body{
+     background-color: hsl(216, 12%, 8%);
+}
+
+.active{
+     display: block;
+}
+
+.inactive{
+     display: none;
+}
+
+.initial-state{
+     background-color:hsl(213, 19%, 18% ,0.5);
+     max-width: 400px;
+     width: 100%;
+     height: auto;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 20px;
+}
+
+.container-initial{
+     padding: 45px;
+}
+
+.container-initial .star{
+     width: 35px;
+     height: 35px;
+     border-radius: 20px;
+     background-color: hsl(213, 19%, 18%,0.8);
+     margin-bottom: 5%;
+}
+
+.container-initial .star img{
+     padding: 0.5677em;
+}
+
+.initial-state .container-initial > h1{
+     color: hsl(0, 0%, 100%);
+     font-size: 25px;
+     font-weight: 400;
+     
+}
+
+
+.initial-state .container-initial p{
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 20px;
+     margin: 5% 0;
+     color: hsl(217, 12%, 63% , 0.8);
+}
+
+.initial-state .container-initial .options .option{
+     
+     color: hsl(217, 12%, 63% , 0.8);
+}
+
+.initial-state .container-initial input{
+     width: 100%;
+     font-size: 13px;
+     height: 35px;
+     cursor:pointer;
+     background-color: hsl(25, 97%, 53%);
+     color: hsl(0, 0%, 100%);
+     font-weight: 700;
+     letter-spacing: 2px;
+     border-radius: 20px;
+     border: 0;
+     transition: 0.2s;
+}
+
+.initial-state .container-initial input:hover{
+     background-color: hsl(0, 0%, 100%);
+     color:hsl(25, 97%, 53%) ;
+}
+
+.initial-state .container-initial .options{
+     display: flex;
+     justify-content: space-between;
+     margin: 5% 0;
+}
+
+.initial-state .container-initial .options .option{
+     cursor: pointer;
+     width: 40px;
+     height: 40px;
+     border-radius: 30px;
+     padding: 12px 15px;
+     background-color: hsl(213, 19%, 18%);
+}
+
+.buttonClicked{
+     background-color:hsl(217, 12%, 63%)!important;
+     color: hsl(0, 0%, 100%) !important;
+}
+
+.initial-state .container-initial .options .option:hover{
+     background-color: hsl(25, 97%, 53%);
+     color: hsl(0, 0%, 100%);
+}
+
+.initial-state .container-initial .options .option {
+     font-size: 15px;
+}
+
+.initial-state .container-thank{
+     text-align: center;
+     max-width: 450px;
+     height: 24rem;
+}
+
+.container-thank img{
+     padding:  1.5rem 0;
+}
+.container-thank .il-thank{
+     margin: 5%;
+     padding: 1px;
+}
+
+.container-thank .il-thank .p{
+     width: 60%;
+     height: 40px;
+     margin: 1rem auto;
+     
+}
+
+.container-thank .il-thank .p p{
+     margin: 5%;
+     color:  hsl(25, 97%, 53% , 0.8);
+     background-color: hsl(216, 12%, 54% ,0.1);
+     border-radius: 10px;
+     padding: 4px;
+}
+
+.container-thank .il-thank h1{
+     color: hsl(0, 0%, 100%);
+     font-size: 1.5rem;
+     padding-bottom: 4%;
+}
+
+.container-thank p{
+     color:hsl(217, 12%, 63% , 0.8);
+}
+
+.container-thank .il-thank .solo{
+     margin-top: 2rem;
+}
